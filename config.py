@@ -10,18 +10,18 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "29705318"))
 API_HASH = getenv("API_HASH", "3e2781d669267ba9165147f70110cc4e")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6299367094:AAEVHlgmKPbslEm2fpQc0NbPkSegoR_v2q4")
+BOT_TOKEN = getenv("BOT_TOKEN", "6058318796:AAFFitpgzbNO8LmMQ2RLY00H656pAOdvbCU")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://moon:music@cluster0.6dpesyn.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001615104496"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴄᴜᴛɪᴇﮩ٨ـﮩﮩ٨♡")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴍᴏᴏɴﮩ٨ـﮩﮩ٨♬")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5776889746").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/NomoreLakshya/MoonMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/NomoreLakshya/Moon2.0")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "AQBW4yEQI-Rgvm6iv2eOSbZRTX8duNC7BL3mjpZI_r1WuwZVnys7ApPmuYKxFUGGzatXIZ66CFrZqKjfFx8wzqHBfgc8m_2jo_cIAFtWkvyljqGqzv9KeXV3xzdKHPrctq7-8f8Tq7E-8pqZ0O2SH0JEwsrnbIQ9ih9h28IEQy8IvZHPfdyE8mieeFEGwcguRcGggsiAb2IqjdMJCbEfJ_TzCSRbhZl-bSRh7E3pmALX_qieVqZ1pGjO_h4ZvKUjG-Ik2hq1TNdOxzP7a8bvZI70fxYZejXevG_zdAcpU4F_hkvkqrivX0bYwecbsTqksJ3qungpQoPB9oeil2D6NMQGAAAAAV7mUmMA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/3afc2232682be723f72f3.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/aae3c3853717a4d606636.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/3afc2232682be723f72f3.jpg",
+    "https://te.legra.ph/file/aae3c3853717a4d606636.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/e51cc586250e6a1878d9b.jpg"
